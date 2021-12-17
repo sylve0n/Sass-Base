@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+    <html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta http-equiv="X-UA-Compatible" content="ie=edge">
+        <title>Gulp Sass Test</title>
+        <link rel="stylesheet" href="styles/styles.css">
+    </head>
+    <body>
+        <main>
+            <h1>Gulp Sass Test</h1>
+            <h2>* Before running any Gulp tasks, you will need to install the command line tool globally: 
+                <i>npm install --global gulp-cli</i> *</h2> 
+            <p>To compile the Sass files into CSS, you will need to run the Gulp script, styles/gulp.js.</p>
+            <p><ul>
+                <li>
+                    The dev task runs, compiles the .scss files and builds a non-minified CSS file with sourcemaps. We use this in conjunction with the watch task for developing.
+                    <li>To use the dev then watch task, run <i>'gulp'</i> inside of the <i>styles</i> directory in your terminal. The dev task will build, then the watch task will watch your Sass files for any changes (saves)</li>
+                </li>
+                <li>
+                    The build task runs <b>once</b> and compiles the .scss. This builds with no sourcemaps and adds vendor prefixes
+                    <li>To build, run <i>'gulp build'</i> inside of the <i>styles</i> directory.</li>
+                </li>
+            </ul></p>
+        </main>
+    </body>
+</html>

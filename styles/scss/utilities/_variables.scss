@@ -1,0 +1,34 @@
+// Breakpoints
+// These are used in the foundation breakpoint mixin
+// @include breakpoint(medium) { /* styles for medium screens up */ }
+$small:   0;
+$medium:  640px;
+$large:   1025px;
+$xlarge:  1200px;
+$xxlarge: 1440px;
+
+// Type variables
+$browser-context: 16;
+$sans: 'Roboto', 'Helvetica', sans-serif;
+$serif: 'Roboto Slab', serif;
+
+$max-width: 1440px;
+$shadow: 0 0 4px 0 rgba(43,43,42,0.25), 0 4px 17px -5px rgba(43,43,42,0.2), 0 4px 25px 3px rgba(43,43,42,0.15);
+
+// Layers, add more in between breakpoints if you need. 
+// use map-get to access. 
+// z-index: map-get($z, 1)
+// https://sass-lang.com/documentation/functions/map#map-get
+$z: (
+  1: 10,
+  2: 20,
+  3: 30,
+  4: 40,
+  5: 50,
+  6: 60,
+  7: 70,
+  8: 80,
+  9: 90,
+  10: 100,
+  top: 1000
+);

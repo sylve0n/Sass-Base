@@ -1,0 +1,23 @@
+/* @font-face imports */
+
+@font-face {
+    font-family: "Roboto";
+    font-display: swap;
+    src: url("../fonts/Roboto-Regular.ttf") format("ttf");
+    font-weight: 400;
+}
+
+@font-face {
+    font-family: "Roboto Bold";
+    font-display: swap;
+    src: url("../fonts/Nexa-Regular.ttf") format("ttf");
+    font-weight: 700;
+}
+
+@font-face {
+    font-family: 'Roboto Slab';
+    src: url('../fonts/RobotoSlab-VariableFont_wght.ttf') format('ttf');
+    font-weight: 125 950;
+    font-stretch: 75% 125%;
+    font-style: normal;
+   }

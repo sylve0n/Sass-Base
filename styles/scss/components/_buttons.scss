@@ -1,0 +1,22 @@
+button, a.button {
+    box-sizing: border-box;
+    border: none;
+    display: block;
+    font-size: 0.875em;
+    background-color: $clickable;
+    color: white;
+    margin-bottom: 1em;
+    padding: 0.5em;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-family: $sans;
+    width: 100%;
+    text-align: center;
+    cursor: pointer;
+    transition: background-color 200ms ease;
+    line-height: 1.2em;
+    max-width: 300px;
+    &:hover {
+      background-color: darken($clickable, 6%);
+    }
+  }

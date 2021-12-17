@@ -1,0 +1,49 @@
+input[type='search'],
+input[type='text'],
+input[type='email'],
+input[type='phone'],
+input[type='state'],
+textarea {
+  width: 100%;
+  box-sizing: border-box;
+  padding: 0.5em 0.666em;
+  color: $text;
+  font-family: inherit;
+  font-size: 1rem; // needs to be at least 16px to avoid iOS zooming
+  border-radius: 0;
+  -webkit-border-radius: 0;
+  -webkit-appearance: none;
+}
+
+input[type='checkbox'] {
+  display: none;
+
+  & + label {
+    display: flex;
+    align-items: center;
+    font-size: 1em;
+  }
+
+  & + label::before {
+    flex: 0 0 auto;
+    content: '';
+    display: block;
+    background-color: rgba(white, 0.8);
+    border: 1px solid $lgrey;
+    border-radius: 0;
+    -webkit-border-radius: 0;
+    -webkit-appearance: none;
+    height: 1.875em;
+    width: 1.875em;
+    position: relative;
+    top: 0;
+  }
+
+  &:checked {
+    & + label::before {
+      background-image: svg-uri($checked);
+      background-repeat: no-repeat;
+      background-position: center center;
+    }
+  }
+}

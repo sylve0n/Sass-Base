@@ -1,0 +1,29 @@
+{
+  "name": "sass-base",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/sylve0n/Sass-Base.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/sylve0n/Sass-Base/issues"
+  },
+  "homepage": "https://github.com/sylve0n/Sass-Base#readme",
+  "devDependencies": {
+    "autoprefixer": "^10.2.5",
+    "cssnano": "^5.0.5",
+    "gulp": "^4.0.2",
+    "gulp-postcss": "^9.0.0",
+    "gulp-sass": "^5.0.0",
+    "gulp-sourcemaps": "^3.0.0",
+    "node-sass": "^6.0.1",
+    "postcss": "^8.3.0"
+  }
+}

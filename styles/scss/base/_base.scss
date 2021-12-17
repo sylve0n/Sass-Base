@@ -1,0 +1,27 @@
+html {
+    font-size: $browser-context * 1px;
+    box-sizing: border-box;
+    *, *:before, *:after {
+        box-sizing: inherit;
+    }
+}
+
+body {
+    font-family: $sans;
+    color: $black;
+    padding: 100px;
+    -webkit-font-smoothing: antialiased;
+}
+
+img {
+    display: block;
+    width: 100%;
+    height: auto;
+}
+
+a {
+    cursor: pointer;
+    &:disabled {
+        cursor: default;
+    }
+}
